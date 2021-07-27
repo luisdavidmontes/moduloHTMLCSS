@@ -1,0 +1,51 @@
+/* 
+
+estructura basica de los estilos de CSS
+
+
+clase/etiqueta {
+
+    estilo_a_aplicar: propiedad_del_estilo;
+}
+
+/* estilos generales */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+/* navBar styles */
+nav{
+    background-color:#33beff ;
+    padding:20px;
+    color:#fff;
+}
+
+/* Button header styles */
+
+.btn-header-style {     
+
+    color: #ffF;
+    background-color:#33ff33;
+    padding: 10px;
+    border: 0;
+    height: 40px ;
+    border-radius: 5px;
+}
+
+
+/* header container style */
+
+.header-cotainer {
+    background-color: blue;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
